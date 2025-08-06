@@ -1,0 +1,23 @@
+# Ignore tfstate files
+*.tfstate
+*.tfstate.backup
+
+# Ignore crash logs
+crash.log
+
+# Ignore Terraform plan output
+*.tfplan
+
+# Ignore Terraform variable override files
+*.tfvars
+
+# Ignore .terraform directory
+.terraform/
+
+# Ignore sensitive environment-specific config
+envrionment/Dev/dev.tfvars
+
+# Ignore IDE/config files
+.vscode/
+.idea/
+*.swp
